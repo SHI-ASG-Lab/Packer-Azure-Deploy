@@ -128,8 +128,8 @@ resource "azurerm_virtual_machine" "main" {
   }
   os_profile {
     computer_name  = var.VmName
-    admin_username = "shi"
-    admin_password = "5ecur!ty_10I"
+    admin_username = "testuser"
+    admin_password = "SHIisNumber1!"
   }
   os_profile_linux_config {
     disable_password_authentication = false
