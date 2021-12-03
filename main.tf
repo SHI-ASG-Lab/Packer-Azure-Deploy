@@ -52,14 +52,12 @@ locals {
 data "azurerm_image" "custom" {
   resource_group_name = "LAB-PackerImages"
   name                = var.ExistingImageName
-  location            = "eastus"
 }
 
 # Reference Existing Resource Group
 
 data "azurerm_resource_group" "main" {
   name = "LAB-PackerImages"
-  location = "eastus"
 }
 
 # Reference Existing Virtual Network
