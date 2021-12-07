@@ -5,6 +5,6 @@ Owner               = "KBormann"
 
 ExistingImageName   = "Pkr-Ubuntu-East"
 
-VmName              = "Ubuntu-East-${formatdate("YY.MM.DD.hhmm", timestamp())}"
+VmName              = "Ubuntu-East"
 
 NumUbuntu           = 1
