@@ -94,7 +94,7 @@ resource "azurerm_network_interface" "main" {
   ip_configuration {
     name                          = "testconfiguration1"
     subnet_id                     = data.azurerm_subnet.default.id
-    private_ip_address_allocation = "static"
+    # private_ip_address_allocation = "static"
     # private_ip_address            = "10.28.0.6"
     private_ip_address            = "Dynamic"
     public_ip_address_id          = azurerm_public_ip.azPubIp.id
