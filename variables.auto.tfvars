@@ -7,6 +7,6 @@ Owner               = "KBormann"
 ExistingImageName   = "Pkr-Win10-Central"
 
 # VmName              = "Ubuntu-EastUS"
-VmName              = "Win10-Central"
+VmName              = "Win10-East"
 
 NumUbuntu           = 1
