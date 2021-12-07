@@ -5,6 +5,6 @@ Owner               = "KBormann"
 
 ExistingImageName   = "Pkr-Ubuntu-East"
 
-VmName              = "Ubuntu-East"
+VmName              = "Ubuntu-EastUS"
 
 NumUbuntu           = 1
