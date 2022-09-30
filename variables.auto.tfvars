@@ -3,8 +3,8 @@ RG_Env_Tag          = "Dev"
 Requestor           = "KBormann"
 Owner               = "KBormann"
 
-ExistingImageName   = "Pkr-2019Server-East"
+ExistingImageName   = "2019-Server-East"
 
-VmName              = "2019Server-East"
+VmName              = "Pkr-2019Svr-East"
 
 NumUbuntu           = 1
